@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Releases | InfyLMS</title>
+    <meta name="description"
+          content="InfyLMS is a complete Library Management System to provide easy and effective way to manage any Library Operations.">
+    <link rel="icon" href="../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js"></script>
+
+    <link rel="preload" href="../assets/css/0.styles.7d3d80f5.css" as="style">
+    <link rel="preload" href="../assets/js/app.62bf49fe.js" as="script">
+    <link rel="preload" href="../assets/js/2.ebb794f0.js" as="script">
+    <link rel="preload" href="../assets/js/9.1b5a0172.js" as="script">
+    <link rel="prefetch" href="../assets/js/10.b3eda490.js">
+    <link rel="prefetch" href="../assets/js/11.e07399c2.js">
+    <link rel="prefetch" href="../assets/js/3.a147e572.js">
+    <link rel="prefetch" href="../assets/js/4.0ab6d667.js">
+    <link rel="prefetch" href="../assets/js/5.c5b2406f.js">
+    <link rel="prefetch" href="../assets/js/6.7d0a7254.js">
+    <link rel="prefetch" href="../assets/js/7.84b4b804.js">
+    <link rel="prefetch" href="../assets/js/8.b0e6a34e.js">
+    <link rel="stylesheet" href="../assets/css/0.styles.7d3d80f5.css">
+</head>
+<body>
+<div id="app" data-server-rendered="true">
+    <div class="theme-container">
+        <header class="navbar">
+            <div class="sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"
+                     class="icon">
+                    <path fill="currentColor"
+                          d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path>
+                </svg>
+            </div>
+            <a href="/" class="home-link router-link-active"><img src="../assets/img/logo.png" alt="InfyLMS" class="logo">
+                <span class="site-name can-hide">InfyLMS</span></a>
+            <div class="links"><!---->
+                <nav class="nav-links can-hide">
+                    <div class="nav-item"><a href="../index.html" class="nav-link">Home</a></div>
+                    <div class="nav-item"><a href="../docs/index.html" class="nav-link">Docs</a></div>
+                    <div class="nav-item"><a href="../releases/index.html"
+                                             class="nav-link router-link-exact-active router-link-active">Releases</a>
+                    </div>
+                    <div class="nav-item"><a href="../upgrade/index.html" class="nav-link">Upgrade Guide</a></div>
+                    <!----></nav>
+            </div>
+        </header>
+        <div class="sidebar-mask"></div>
+        <aside class="sidebar">
+            <nav class="nav-links">
+                <div class="nav-item"><a href="../index.html" class="nav-link">Home</a></div>
+                <div class="nav-item"><a href="../docs/index.html" class="nav-link">Docs</a></div>
+                <div class="nav-item"><a href="../releases/index.html"
+                                         class="nav-link router-link-exact-active router-link-active">Releases</a>
+                </div>
+                <div class="nav-item"><a href="/upgrade/" class="nav-link">Upgrade Guide</a></div> <!----></nav>
+            <ul class="sidebar-links">
+                <li>
+                    <section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Releases</span> <!---->
+                    </p>
+                        <ul class="sidebar-links sidebar-group-items">
+                            <li><a href="#release-notes" class="sidebar-link">Release Notes</a>
+                                <ul class="sidebar-sub-headers">
+                                    <li class="sidebar-sub-header"><a href="#v4-2-0" class="sidebar-link">v4.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v4-1-0" class="sidebar-link">v4.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v4-0-0" class="sidebar-link">v4.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-6-0" class="sidebar-link">v3.6.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-5-1" class="sidebar-link">v3.5.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-5-0" class="sidebar-link">v3.5.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-4-0" class="sidebar-link">v3.4.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-3-0" class="sidebar-link">v3.3.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-2-1" class="sidebar-link">v3.2.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-2-0" class="sidebar-link">v3.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-1-0" class="sidebar-link">v3.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-0-1" class="sidebar-link">v3.0.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v3-0-0" class="sidebar-link">v3.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v2-3-1" class="sidebar-link">v2.3.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v2-3-0" class="sidebar-link">v2.3.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v2-2-0" class="sidebar-link">v2.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v2-1-0" class="sidebar-link">v2.1.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v2-0-0" class="sidebar-link">v2.0.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-6-0" class="sidebar-link">v1.6.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-5-1" class="sidebar-link">v1.5.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-5-0" class="sidebar-link">v1.5.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-4-0" class="sidebar-link">v1.4.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-3-1" class="sidebar-link">v1.3.1</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-3-0" class="sidebar-link">v1.3.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-2-0" class="sidebar-link">v1.2.0</a>
+                                    </li>
+                                    <li class="sidebar-sub-header"><a href="#v1-1-0" class="sidebar-link">v1.1.0</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+        </aside>
+        <main class="page">
+            <div class="theme-default-content content__default"><h1 id="releases"><a href="#releases"
+                                                                                     class="header-anchor">#</a>
+                Releases</h1>
+                <p>You can find what changes, features and bug fixed into some specific version here. we are also
+                    providing guide to upgrade from old version to newer version.</p>
+                <h2 id="release-notes"><a href="#release-notes" class="header-anchor">#</a> Release Notes</h2>
+
+                <h3 id="v4-2-0"><a href="#v4-2-0" class="header-anchor">#</a> v4.2.0</h3> <h5 id="features-420"><a
+                        href="#features-420" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Offline payment gateway support added</li>
+                </ul>
+                <h5 id="fixes-420"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive & Bugs fixes. </li>
+                </ul>
+
+                <h3 id="v4-1-0"><a href="#v4-1-0" class="header-anchor">#</a> v4.1.0</h3> <h5 id="features-410"><a
+                        href="#features-410" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Membership Subscriptions Support added</li>
+                </ul>
+                <h5 id="fixes-410"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive & Bugs fixes. </li>
+                </ul>
+                
+
+                <h3 id="v4-0-0"><a href="#v4-0-0" class="header-anchor">#</a> v4.0.0</h3> <h5 id="enhancements-400"><a
+                        href="#enhancements-400" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel 8.0 Support Added</li>
+                </ul>
+                <h5 id="fixes-400"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive & Bugs fixes. </li>
+                </ul>
+                
+                <h3 id="v3-6-0"><a href="#v3-6-0" class="header-anchor">#</a> v3.6.0</h3> <h5 id="enhancements-360"><a
+                        href="#enhancements-360" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>CoreUI 2.0 Theme upgraded to CoreUI 3.0</li>
+                    <li>Bootstrap 4 Support Added</li>
+                </ul>
+                <h5 id="fixes-360"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive & Bugs fixes. </li>
+                </ul>
+                
+
+                <h3 id="v3-5-1"><a href="#v3-5-1" class="header-anchor">#</a> v3.5.1</h3> <h5 id="enhancements-00"><a
+                        href="#enhancements-00" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel package updated</li>
+                    <li>NPM Dependency updated</li>
+                </ul>
+                <h5 id="fixes-00"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive & Bugs fixes. </li>
+                </ul>
+                
+                <h3 id="v3-5-0"><a href="#v3-5-0" class="header-anchor">#</a> v3.5.0</h3> <h5 id="enhancements-0"><a
+                        href="#enhancements-0" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li> Search box working on landing page</li>
+                </ul>
+                <h5 id="fixes-1"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Responsive & Bugs fixes. </li>
+                </ul>
+                
+                <h3 id="v3-4-0"><a href="#v3-4-0" class="header-anchor">#</a> v3.4.0</h3> <h5 id="enhancements-1"><a
+                        href="#enhancements-1" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>6.18.40</code> to <code>6.20.7</code></li>
+                    <li>npm dependencies are updated</li>
+                </ul>
+                <h3 id="v3-3-0"><a href="#v3-3-0" class="header-anchor">#</a> v3.3.0</h3> <h5 id="features"><a
+                        href="#features" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>About us card CRUD added into home settings (Manage landing page content)</li>
+                    <li>Manage Landing page content from Home settings
+                        <ul>
+                            <li>Hero image title</li>
+                            <li>Hero image description</li>
+                            <li>About us text</li>
+                            <li>Genres text</li>
+                            <li>Popular books text</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5 id="enhancements-2"><a href="#enhancements-2" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>On settings page show logo/favicon icon at a time after selecting it</li>
+                    <li>Composer dependencies are updated</li>
+                </ul>
+                <h3 id="v3-2-1"><a href="#v3-2-1" class="header-anchor">#</a> v3.2.1</h3> <h5 id="enhancements-3"><a
+                        href="#enhancements-3" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Email will now accept any domains other than <code>.com</code>
+                        <ul>
+                            <li>e.g <code>me@mitul.me</code></li>
+                        </ul>
+                    </li>
+                    <li>When admin user will logged out, it will be redirected to admin login screen. instead of landing
+                        page.
+                    </li>
+                </ul>
+                <h5 id="fixes"><a href="#fixes" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: When user update anything in Profile, then next time when trying to login, saying no
+                        user/password match
+                    </li>
+                </ul>
+                <h3 id="v3-2-0"><a href="#v3-2-0" class="header-anchor">#</a> v3.2.0</h3> <h5 id="enhancements-4"><a
+                        href="#enhancements-4" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Make pages fully responsive</li>
+                    <li>Email verification column added into members module at admin side</li>
+                    <li>Laravel version updated from <code>6.18.37</code> to to<code>6.18.40</code></li>
+                    <li>Email and name icon added into Registration, login, forgot password screen</li>
+                    <li>Currencies are refactored with new icon</li>
+                    <li>Zip code now only allow to enter number only</li>
+                </ul>
+                <h5 id="fixes-2"><a href="#fixes-2" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: blank screen issue while editing member from admin</li>
+                    <li>Fixed: pagination issues</li>
+                </ul>
+                <h3 id="v3-1-0"><a href="#v3-1-0" class="header-anchor">#</a> v3.1.0</h3> <h5 id="features-2"><a
+                        href="#features-2" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Export Books Support added</li>
+                    <li>Export Book Circulation Support added</li>
+                    <li>Following Commands added :
+                        <ul>
+                            <li>Send Book due reminder before one week to admin and member</li>
+                            <li>Send Book is due reminder on due day to member</li>
+                            <li>You have to set scheduler. which manage the all crones. you can check more about it <a
+                                    href="https://laravel.com/docs/6.x/scheduling#introduction" target="_blank"
+                                    rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg"
+                                                                             aria-hidden="true" focusable="false"
+                                                                             x="0px" y="0px" viewBox="0 0 100 100"
+                                                                             width="15" height="15"
+                                                                             class="icon outbound"><path
+                                    fill="currentColor"
+                                    d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon
+                                    fill="currentColor"
+                                    points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span
+                                    class="sr-only">(opens new window)</span></span></a> (see &quot;Starting The
+                                Scheduler Topic&quot;)
+                            </li>
+                            <li>You can find docs <a
+                                    href="https://hostadvice.com/how-to/how-to-setup-cron-jobs-on-cpanel/"
+                                    target="_blank" rel="noopener noreferrer">here<span><svg
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px"
+                                    y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path
+                                    fill="currentColor"
+                                    d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon
+                                    fill="currentColor"
+                                    points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span
+                                    class="sr-only">(opens new window)</span></span></a> to setup cron on cPanel.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5 id="enhancements-5"><a href="#enhancements-5" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>New filer Overdue and Reserved Due added on book circulation tab</li>
+                    <li>New Currencies Support added</li>
+                    <li>Laravel version updated from <code>6.18.31</code> to to<code>6.18.37</code></li>
+                </ul>
+                <h5 id="fixes-3"><a href="#fixes-3" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: Responsive Issues</li>
+                </ul>
+                <h3 id="v3-0-1"><a href="#v3-0-1" class="header-anchor">#</a> v3.0.1</h3> <h5 id="fixes-4"><a
+                        href="#fixes-4" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed: Unauthorized error while login</li>
+                    <li>Fixed: Book search issue on responsive screen</li>
+                    <li>Fixed: Removed the un-used APIs call from landing page</li>
+                </ul>
+                <h3 id="v3-0-0"><a href="#v3-0-0" class="header-anchor">#</a> v3.0.0</h3> <h5 id="feature"><a
+                        href="#feature" class="header-anchor">#</a> Feature</h5>
+                <ul>
+                    <li>E-book items support added</li>
+                </ul>
+                <h5 id="enhancements-6"><a href="#enhancements-6" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>Laravel version updated from <code>6.18.22</code> to to<code>6.18.31</code></li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3 id="v2-3-1"><a href="#v2-3-1" class="header-anchor">#</a> v2.3.1</h3> <h5 id="fixes-5"><a
+                        href="#fixes-5" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Return status code <code>401</code> instead of <code>500</code> when token is invalid</li>
+                    <li>Redirect to login screen when status code <code>401</code> received</li>
+                </ul>
+                <h3 id="v2-3-0"><a href="#v2-3-0" class="header-anchor">#</a> v2.3.0</h3> <h5 id="enhancements-7"><a
+                        href="#enhancements-7" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel <a href="https://laravel.com/docs/7.x/sanctum" target="_blank"
+                                   rel="noopener noreferrer">Sanctum<span><svg xmlns="http://www.w3.org/2000/svg"
+                                                                               aria-hidden="true" focusable="false"
+                                                                               x="0px" y="0px" viewBox="0 0 100 100"
+                                                                               width="15" height="15"
+                                                                               class="icon outbound"><path
+                            fill="currentColor"
+                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon
+                            fill="currentColor"
+                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span
+                            class="sr-only">(opens new window)</span></span></a> added for authentication
+                    </li>
+                    <li>JWT package removed</li>
+                    <li>ISBN length validations added</li>
+                    <li>Laravel version updated from <code>6.18.20</code> to <code>6.18.22</code></li>
+                    <li>npm dependencies updated</li>
+                </ul>
+                <h3 id="v2-2-0"><a href="#v2-2-0" class="header-anchor">#</a> v2.2.0</h3> <h5 id="features-3"><a
+                        href="#features-3" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Books Export/Import Support added</li>
+                    <li>Setting to send book due mail before given days</li>
+                    <li>Cron job added to send book due mail</li>
+                    <li>Send book due mail from book history when book is due support added</li>
+                </ul>
+                <h5 id="enhancements-8"><a href="#enhancements-8" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>6.18.6</code> to <code>6.18.18</code></li>
+                </ul>
+                <h3 id="v2-1-0"><a href="#v2-1-0" class="header-anchor">#</a> v2.1.0</h3> <h5 id="features-4"><a
+                        href="#features-4" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Book Circulation Archive Support Added</li>
+                    <li>APIs for Mobile App added</li>
+                </ul>
+                <h5 id="enhancements-9"><a href="#enhancements-9" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>v6.17.1</code> to <code>6.18.6</code></li>
+                </ul>
+                <h5 id="fixes-6"><a href="#fixes-6" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Fixed failed test cases</li>
+                </ul>
+                <h3 id="v2-0-0"><a href="#v2-0-0" class="header-anchor">#</a> v2.0.0</h3> <h5 id="features-5"><a
+                        href="#features-5" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Penalty Management Added</li>
+                </ul>
+                <h5 id="enhancements-10"><a href="#enhancements-10" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>v6.15.1</code> to <code>6.17.1</code></li>
+                    <li>Change empty state message when no records found</li>
+                    <li>Change no search records found message</li>
+                </ul>
+                <h3 id="v1-6-0"><a href="#v1-6-0" class="header-anchor">#</a> v1.6.0</h3> <h5 id="features-6"><a
+                        href="#features-6" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Member language switcher added</li>
+                </ul>
+                <h5 id="enhancements-11"><a href="#enhancements-11" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Composer version updated from <code>v6.14.0</code> to <code>6.15.1</code></li>
+                </ul>
+                <h3 id="v1-5-1"><a href="#v1-5-1" class="header-anchor">#</a> v1.5.1</h3> <h5 id="enhancements-12"><a
+                        href="#enhancements-12" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Composer version updated from <code>v6.9.0</code> to <code>6.14.0</code></li>
+                    <li>Removed password field from edit member screen</li>
+                    <li>Logged in user can not be deleted</li>
+                    <li>Change the current year in footer</li>
+                </ul>
+                <h3 id="v1-5-0"><a href="#v1-5-0" class="header-anchor">#</a> v1.5.0</h3> <h5 id="features-7"><a
+                        href="#features-7" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Book Item Delete Support Added</li>
+                </ul>
+                <h5 id="enhancements-13"><a href="#enhancements-13" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Composer packages updated</li>
+                    <li>Member modals (create/update) converted to screen</li>
+                    <li>Make book item price to optional</li>
+                </ul>
+                <h3 id="v1-4-0"><a href="#v1-4-0" class="header-anchor">#</a> v1.4.0</h3> <h5 id="features-8"><a
+                        href="#features-8" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>File upload with S3 storage driver</li>
+                </ul>
+                <h5 id="enhancements-14"><a href="#enhancements-14" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>6.8.0</code> to <code>6.9.0</code></li>
+                    <li>Change password option added into member panel</li>
+                    <li>Change password option added into admin panel</li>
+                </ul>
+                <h5 id="fixes-7"><a href="#fixes-7" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Image path change at everywhere due to S3 support added</li>
+                    <li>Fixed: Activation email not send while creating activated member/user</li>
+                    <li>Multi-language support added for label - Max Issue Books/Reserve Books Limit inputs label</li>
+                </ul>
+                <h3 id="v1-3-1"><a href="#v1-3-1" class="header-anchor">#</a> v1.3.1</h3> <h5 id="enhancements-15"><a
+                        href="#enhancements-15" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>6.7.0</code> to <code>6.8.0</code></li>
+                </ul>
+                <h3 id="v1-3-0"><a href="#v1-3-0" class="header-anchor">#</a> v1.3.0</h3> <h5 id="features-9"><a
+                        href="#features-9" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Testimonials CRUD added in admin panel</li>
+                    <li>Dynamic testimonials listing in landing page</li>
+                </ul>
+                <h5 id="enhancements-16"><a href="#enhancements-16" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>6.6.0</code> to <code>6.7.0</code></li>
+                    <li>Member registration message changed</li>
+                </ul>
+                <h5 id="fixes-8"><a href="#fixes-8" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Error <code>MemberRepositoryInterFace not found</code> fixed</li>
+                    <li>Fixed password reset screen redirect issue</li>
+                </ul>
+                <h3 id="v1-2-0"><a href="#v1-2-0" class="header-anchor">#</a> v1.2.0</h3> <h5 id="features-10"><a
+                        href="#features-10" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Member Registration Support added</li>
+                </ul>
+                <h5 id="enhancements-17"><a href="#enhancements-17" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Laravel version updated from <code>6.3.0</code> to <code>6.6.0</code></li>
+                    <li>Approve book request's enhanced by adding status related validations
+                        <ul>
+                            <li>e.g Available Request not allow to edit.</li>
+                        </ul>
+                    </li>
+                    <li>Test cases added for book request status change validations.</li>
+                    <li>Email verified support added for members</li>
+                    <li>Send verification email when new Member/User is registered</li>
+                    <li>Member/User not allow to login without verifying email</li>
+                </ul>
+                <h5 id="fixes-9"><a href="#fixes-9" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Redirect to admin login page when user enter given url : <code>/#/app/admin</code></li>
+                </ul>
+                <h3 id="v1-1-0"><a href="#v1-1-0" class="header-anchor">#</a> v1.1.0</h3> <h5 id="features-11"><a
+                        href="#features-11" class="header-anchor">#</a> Features</h5>
+                <ul>
+                    <li>Show book cover in full screen implemented</li>
+                    <li>Ability to change content of landing page including :
+                        <ul>
+                            <li>facebook, twitter, github, linkedin links</li>
+                            <li>contact phone and contact email</li>
+                            <li>website</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5 id="enhancements-18"><a href="#enhancements-18" class="header-anchor">#</a> Enhancements</h5>
+                <ul>
+                    <li>Settings menu moved under &quot;CMS&quot;</li>
+                    <li>Un-Reserved books command added to scheduler</li>
+                    <li>Currency now showing with Currency Code in Settings e.g Indian Rupee (INR)</li>
+                </ul>
+                <h5 id="fixes-10"><a href="#fixes-10" class="header-anchor">#</a> Fixes</h5>
+                <ul>
+                    <li>Pagination issue fixed while filtering records</li>
+                    <li>Redirect to login page when try to access routes without login</li>
+                    <li>Fixed console errors on setting page</li>
+                </ul>
+            </div>
+            <footer class="page-edit"><!----> <!----></footer> <!----> </main>
+    </div>
+    <div class="global-ui"></div>
+</div>
+<script src="../assets/js/2.ebb794f0.js" defer></script>
+<script src="../assets/js/9.1b5a0172.js" defer></script>
+</body>
+</html>
